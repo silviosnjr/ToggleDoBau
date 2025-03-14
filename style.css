@@ -1,0 +1,25 @@
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; 
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .bau {
+    width: 800px;
+    height: 632px;
+    background-image: url('img/bau_fechado.png'); /* Imagem do baú fechado */
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .bau.active {
+    background-image: url('img/bau_aberto.png'); /* Imagem do baú aberto */
+  }
+  
